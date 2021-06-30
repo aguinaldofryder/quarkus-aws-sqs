@@ -1,4 +1,5 @@
 # Filas com Quarkus e AWS SQS
+![](https://github.com/aguinaldofryder/quarkus-aws-sqs/blob/main/aws-sqs.png)
 ## Visão geral
 Este exemplo mostra como implementar uma fila com Quarkus e AWS SQS. Foi uma PoC para validação de um fluxo de atualização de produtos, onde o usuário insere e altera produtos em um sistema em nuvem e deve receber tais atualizações em um sistema que pode funcionar sem conexão com a internet. 
 Ao conectar novamente deveria sincronizar as alterações, na mesma ordem em que aconteceram.
